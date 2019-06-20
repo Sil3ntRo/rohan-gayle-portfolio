@@ -3,6 +3,7 @@ import {Link} from 'gatsby';
 import logo from '../../../images/logo.png'
 import {FaAlignRight} from "react-icons/fa"
 import styled from 'styled-components'
+import {styles} from '../../../utils'
 
 class NavbarHeader extends Component {
   render() {
@@ -11,7 +12,8 @@ class NavbarHeader extends Component {
       <HeaderWrapper><Link to="/"><img src={logo} alt="name" />
       </Link>
         <FaAlignRight className="toggle-icon"
-            onClick={()=>{handleNavbar()}}></FaAlignRight>
+            onClick={()=>{handleNavbar()}}
+        />
       </HeaderWrapper>
     )
   }
@@ -22,9 +24,10 @@ const HeaderWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: #767c89;
   .toggle-icon{
     font-size:1.75rem;
-    color: var(--mainLightBlue);
+    color: ${styles.colors.mainLightBlue};
     cursor: pointer;
   }
   @media (mind-width: 768px) {
