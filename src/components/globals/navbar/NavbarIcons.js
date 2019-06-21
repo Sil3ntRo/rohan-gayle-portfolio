@@ -9,7 +9,7 @@ class NavbarIcons extends Component {
       {
         id:1,
         icon:<FaEnvelope className="icon envelope-icon"/>,
-        path: 'emailto:rgayle33614@gmail.com',
+        path: 'mailto:rgayle33614@gmail.com',
       },
       {
         id:2,
@@ -45,7 +45,7 @@ class NavbarIcons extends Component {
 
 const IconWrapper = styled.div`
   .icon {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     cursor: pointer;
     ${styles.transFunction()};
   }
@@ -65,7 +65,7 @@ const IconWrapper = styled.div`
   display: none;
   @media(min-width:768px) {
     display: flex;
-    width: 10rem;
+    width: 12rem;
     justify-content: space-around;
   
   }

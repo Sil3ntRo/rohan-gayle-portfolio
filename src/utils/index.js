@@ -1,3 +1,3 @@
 import * as styles from './styles'
-
-export {styles}
+import {Section} from './Section'
+export {styles, Section}
