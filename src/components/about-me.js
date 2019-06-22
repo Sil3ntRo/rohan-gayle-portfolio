@@ -32,6 +32,14 @@ export default class AboutPage extends Component {
               read various tech blogs, and take other online courses in order to help me
               become a better software engineer.
             </p>
+
+            <br/>
+            <p>This website was created using
+            <a href="https://gatsbyjs.org"> Gatsby </a>
+              and <a href="https://reactjs.org">React</a>,
+              and it's deployed through
+              <a href="https://www.netlify.com"> Netlify</a>.
+            </p>
           </div>
         </AboutWrapper>
 

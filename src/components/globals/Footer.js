@@ -31,8 +31,9 @@ const FooterWrapper = styled.footer`
     
     font-size: 1rem;
     font-family: "Roboto Mono";
-    margin: 30rem auto 20px;
+    margin: 30rem auto 40px;
     text-transform: uppercase;
+    bottom: 0px;
   }
   .separator {
     margin: 0px 1rem;
